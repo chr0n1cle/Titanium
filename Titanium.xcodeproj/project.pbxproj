@@ -1,0 +1,597 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BD2CD95820625C9E002F6377 /* offsets_bypass.m in Sources */ = {isa = PBXBuildFile; fileRef = BD2CD95720625C9E002F6377 /* offsets_bypass.m */; };
+		BD578F23206C7F8E00C548FC /* offsets.m in Sources */ = {isa = PBXBuildFile; fileRef = BD578F22206C7F8E00C548FC /* offsets.m */; };
+		BD635BC720624EBA000BDA9F /* mach-portal.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = BD635BC420624EB9000BDA9F /* mach-portal.dylib */; };
+		BD635BC820624EBA000BDA9F /* mach_portal.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = BD635BC520624EB9000BDA9F /* mach_portal.dylib */; };
+		BD78787420617E29000341E3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BD78787320617E29000341E3 /* AppDelegate.m */; };
+		BD78787720617E29000341E3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BD78787620617E29000341E3 /* ViewController.m */; };
+		BD78787A20617E29000341E3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD78787820617E29000341E3 /* Main.storyboard */; };
+		BD78787C20617E2A000341E3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD78787B20617E2A000341E3 /* Assets.xcassets */; };
+		BD78787F20617E2A000341E3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD78787D20617E2A000341E3 /* LaunchScreen.storyboard */; };
+		BD78788220617E2A000341E3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BD78788120617E2A000341E3 /* main.m */; };
+		BD7878A920617E64000341E3 /* v0rtex.m in Sources */ = {isa = PBXBuildFile; fileRef = BD7878A420617E64000341E3 /* v0rtex.m */; };
+		BD9909B12061F90800DAC992 /* launchctl in Resources */ = {isa = PBXBuildFile; fileRef = BD9909A92061F90600DAC992 /* launchctl */; };
+		BD9909B22061F90800DAC992 /* bootstrap.tar in Resources */ = {isa = PBXBuildFile; fileRef = BD9909AA2061F90700DAC992 /* bootstrap.tar */; };
+		BD9909B32061F90800DAC992 /* 0.reload.plist in Resources */ = {isa = PBXBuildFile; fileRef = BD9909AB2061F90700DAC992 /* 0.reload.plist */; };
+		BD9909B42061F90800DAC992 /* dropbear.plist in Resources */ = {isa = PBXBuildFile; fileRef = BD9909AC2061F90700DAC992 /* dropbear.plist */; };
+		BD9909B52061F90800DAC992 /* unjail.m in Sources */ = {isa = PBXBuildFile; fileRef = BD9909AD2061F90700DAC992 /* unjail.m */; };
+		BD9909B62061F90800DAC992 /* tar in Resources */ = {isa = PBXBuildFile; fileRef = BD9909AE2061F90700DAC992 /* tar */; };
+		BD9909B72061F90800DAC992 /* reload in Resources */ = {isa = PBXBuildFile; fileRef = BD9909B02061F90800DAC992 /* reload */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BD78788820617E2A000341E3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BD78786720617E29000341E3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BD78786E20617E29000341E3;
+			remoteInfo = Titanium;
+		};
+		BD78789320617E2A000341E3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BD78786720617E29000341E3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BD78786E20617E29000341E3;
+			remoteInfo = Titanium;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BD2CD95620625C9D002F6377 /* offsets_bypass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = offsets_bypass.h; sourceTree = "<group>"; };
+		BD2CD95720625C9E002F6377 /* offsets_bypass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = offsets_bypass.m; sourceTree = "<group>"; };
+		BD578F22206C7F8E00C548FC /* offsets.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = offsets.m; sourceTree = "<group>"; };
+		BD635BC420624EB9000BDA9F /* mach-portal.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = "mach-portal.dylib"; sourceTree = "<group>"; };
+		BD635BC520624EB9000BDA9F /* mach_portal.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = mach_portal.dylib; sourceTree = "<group>"; };
+		BD78786F20617E29000341E3 /* Titanium.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Titanium.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD78787220617E29000341E3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BD78787320617E29000341E3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BD78787520617E29000341E3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		BD78787620617E29000341E3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		BD78787920617E29000341E3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BD78787B20617E2A000341E3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BD78787E20617E2A000341E3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BD78788020617E2A000341E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BD78788120617E2A000341E3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BD78788720617E2A000341E3 /* TitaniumTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TitaniumTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD78789220617E2A000341E3 /* TitaniumUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TitaniumUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD7878A420617E64000341E3 /* v0rtex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = v0rtex.m; sourceTree = "<group>"; };
+		BD7878A520617E64000341E3 /* offsets.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = offsets.h; sourceTree = "<group>"; };
+		BD7878A620617E64000341E3 /* common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = common.h; sourceTree = "<group>"; };
+		BD7878A820617E64000341E3 /* v0rtex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = v0rtex.h; sourceTree = "<group>"; };
+		BD9909A92061F90600DAC992 /* launchctl */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = launchctl; sourceTree = "<group>"; };
+		BD9909AA2061F90700DAC992 /* bootstrap.tar */ = {isa = PBXFileReference; lastKnownFileType = archive.tar; path = bootstrap.tar; sourceTree = "<group>"; };
+		BD9909AB2061F90700DAC992 /* 0.reload.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = 0.reload.plist; sourceTree = "<group>"; };
+		BD9909AC2061F90700DAC992 /* dropbear.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = dropbear.plist; sourceTree = "<group>"; };
+		BD9909AD2061F90700DAC992 /* unjail.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = unjail.m; sourceTree = "<group>"; };
+		BD9909AE2061F90700DAC992 /* tar */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = tar; sourceTree = "<group>"; };
+		BD9909AF2061F90700DAC992 /* unjail.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = unjail.h; sourceTree = "<group>"; };
+		BD9909B02061F90800DAC992 /* reload */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = reload; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BD78786C20617E29000341E3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD635BC720624EBA000BDA9F /* mach-portal.dylib in Frameworks */,
+				BD635BC820624EBA000BDA9F /* mach_portal.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD78788420617E2A000341E3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD78788F20617E2A000341E3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BD78786620617E29000341E3 = {
+			isa = PBXGroup;
+			children = (
+				BD78787120617E29000341E3 /* Titanium */,
+				BD78787020617E29000341E3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BD78787020617E29000341E3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BD78786F20617E29000341E3 /* Titanium.app */,
+				BD78788720617E2A000341E3 /* TitaniumTests.xctest */,
+				BD78789220617E2A000341E3 /* TitaniumUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BD78787120617E29000341E3 /* Titanium */ = {
+			isa = PBXGroup;
+			children = (
+				BD78787220617E29000341E3 /* AppDelegate.h */,
+				BD78787320617E29000341E3 /* AppDelegate.m */,
+				BD78787520617E29000341E3 /* ViewController.h */,
+				BD78787620617E29000341E3 /* ViewController.m */,
+				BD7878A620617E64000341E3 /* common.h */,
+				BD635BC520624EB9000BDA9F /* mach_portal.dylib */,
+				BD635BC420624EB9000BDA9F /* mach-portal.dylib */,
+				BD7878A520617E64000341E3 /* offsets.h */,
+				BD9909AB2061F90700DAC992 /* 0.reload.plist */,
+				BD9909AA2061F90700DAC992 /* bootstrap.tar */,
+				BD2CD95620625C9D002F6377 /* offsets_bypass.h */,
+				BD2CD95720625C9E002F6377 /* offsets_bypass.m */,
+				BD9909AC2061F90700DAC992 /* dropbear.plist */,
+				BD9909A92061F90600DAC992 /* launchctl */,
+				BD9909B02061F90800DAC992 /* reload */,
+				BD9909AE2061F90700DAC992 /* tar */,
+				BD9909AF2061F90700DAC992 /* unjail.h */,
+				BD9909AD2061F90700DAC992 /* unjail.m */,
+				BD7878A820617E64000341E3 /* v0rtex.h */,
+				BD578F22206C7F8E00C548FC /* offsets.m */,
+				BD7878A420617E64000341E3 /* v0rtex.m */,
+				BD78787820617E29000341E3 /* Main.storyboard */,
+				BD78787B20617E2A000341E3 /* Assets.xcassets */,
+				BD78787D20617E2A000341E3 /* LaunchScreen.storyboard */,
+				BD78788020617E2A000341E3 /* Info.plist */,
+				BD78788120617E2A000341E3 /* main.m */,
+			);
+			path = Titanium;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BD78786E20617E29000341E3 /* Titanium */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD78789B20617E2A000341E3 /* Build configuration list for PBXNativeTarget "Titanium" */;
+			buildPhases = (
+				BD78786B20617E29000341E3 /* Sources */,
+				BD78786C20617E29000341E3 /* Frameworks */,
+				BD78786D20617E29000341E3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Titanium;
+			productName = Titanium;
+			productReference = BD78786F20617E29000341E3 /* Titanium.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BD78788620617E2A000341E3 /* TitaniumTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD78789E20617E2A000341E3 /* Build configuration list for PBXNativeTarget "TitaniumTests" */;
+			buildPhases = (
+				BD78788320617E2A000341E3 /* Sources */,
+				BD78788420617E2A000341E3 /* Frameworks */,
+				BD78788520617E2A000341E3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BD78788920617E2A000341E3 /* PBXTargetDependency */,
+			);
+			name = TitaniumTests;
+			productName = TitaniumTests;
+			productReference = BD78788720617E2A000341E3 /* TitaniumTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BD78789120617E2A000341E3 /* TitaniumUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD7878A120617E2A000341E3 /* Build configuration list for PBXNativeTarget "TitaniumUITests" */;
+			buildPhases = (
+				BD78788E20617E2A000341E3 /* Sources */,
+				BD78788F20617E2A000341E3 /* Frameworks */,
+				BD78789020617E2A000341E3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BD78789420617E2A000341E3 /* PBXTargetDependency */,
+			);
+			name = TitaniumUITests;
+			productName = TitaniumUITests;
+			productReference = BD78789220617E2A000341E3 /* TitaniumUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BD78786720617E29000341E3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = chr0n1cle;
+				TargetAttributes = {
+					BD78786E20617E29000341E3 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					BD78788620617E2A000341E3 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = BD78786E20617E29000341E3;
+					};
+					BD78789120617E2A000341E3 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = BD78786E20617E29000341E3;
+					};
+				};
+			};
+			buildConfigurationList = BD78786A20617E29000341E3 /* Build configuration list for PBXProject "Titanium" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BD78786620617E29000341E3;
+			productRefGroup = BD78787020617E29000341E3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BD78786E20617E29000341E3 /* Titanium */,
+				BD78788620617E2A000341E3 /* TitaniumTests */,
+				BD78789120617E2A000341E3 /* TitaniumUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BD78786D20617E29000341E3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD78787F20617E2A000341E3 /* LaunchScreen.storyboard in Resources */,
+				BD9909B72061F90800DAC992 /* reload in Resources */,
+				BD9909B32061F90800DAC992 /* 0.reload.plist in Resources */,
+				BD9909B62061F90800DAC992 /* tar in Resources */,
+				BD78787C20617E2A000341E3 /* Assets.xcassets in Resources */,
+				BD78787A20617E29000341E3 /* Main.storyboard in Resources */,
+				BD9909B22061F90800DAC992 /* bootstrap.tar in Resources */,
+				BD9909B42061F90800DAC992 /* dropbear.plist in Resources */,
+				BD9909B12061F90800DAC992 /* launchctl in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD78788520617E2A000341E3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD78789020617E2A000341E3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BD78786B20617E29000341E3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD7878A920617E64000341E3 /* v0rtex.m in Sources */,
+				BD2CD95820625C9E002F6377 /* offsets_bypass.m in Sources */,
+				BD78787720617E29000341E3 /* ViewController.m in Sources */,
+				BD78788220617E2A000341E3 /* main.m in Sources */,
+				BD9909B52061F90800DAC992 /* unjail.m in Sources */,
+				BD578F23206C7F8E00C548FC /* offsets.m in Sources */,
+				BD78787420617E29000341E3 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD78788320617E2A000341E3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD78788E20617E2A000341E3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BD78788920617E2A000341E3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BD78786E20617E29000341E3 /* Titanium */;
+			targetProxy = BD78788820617E2A000341E3 /* PBXContainerItemProxy */;
+		};
+		BD78789420617E2A000341E3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BD78786E20617E29000341E3 /* Titanium */;
+			targetProxy = BD78789320617E2A000341E3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BD78787820617E29000341E3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BD78787920617E29000341E3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BD78787D20617E2A000341E3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BD78787E20617E2A000341E3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BD78789920617E2A000341E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BD78789A20617E2A000341E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BD78789C20617E2A000341E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 44F3Z4TFT2;
+				INFOPLIST_FILE = Titanium/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Titanium",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.chronicle.Titanium;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		BD78789D20617E2A000341E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 44F3Z4TFT2;
+				INFOPLIST_FILE = Titanium/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Titanium",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.chronicle.Titanium;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		BD78789F20617E2A000341E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 44F3Z4TFT2;
+				INFOPLIST_FILE = TitaniumTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.chronicle.TitaniumTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Titanium.app/Titanium";
+			};
+			name = Debug;
+		};
+		BD7878A020617E2A000341E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 44F3Z4TFT2;
+				INFOPLIST_FILE = TitaniumTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.chronicle.TitaniumTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Titanium.app/Titanium";
+			};
+			name = Release;
+		};
+		BD7878A220617E2A000341E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 44F3Z4TFT2;
+				INFOPLIST_FILE = TitaniumUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.chronicle.TitaniumUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Titanium;
+			};
+			name = Debug;
+		};
+		BD7878A320617E2A000341E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 44F3Z4TFT2;
+				INFOPLIST_FILE = TitaniumUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.chronicle.TitaniumUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Titanium;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BD78786A20617E29000341E3 /* Build configuration list for PBXProject "Titanium" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD78789920617E2A000341E3 /* Debug */,
+				BD78789A20617E2A000341E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD78789B20617E2A000341E3 /* Build configuration list for PBXNativeTarget "Titanium" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD78789C20617E2A000341E3 /* Debug */,
+				BD78789D20617E2A000341E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD78789E20617E2A000341E3 /* Build configuration list for PBXNativeTarget "TitaniumTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD78789F20617E2A000341E3 /* Debug */,
+				BD7878A020617E2A000341E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD7878A120617E2A000341E3 /* Build configuration list for PBXNativeTarget "TitaniumUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD7878A220617E2A000341E3 /* Debug */,
+				BD7878A320617E2A000341E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BD78786720617E29000341E3 /* Project object */;
+}
